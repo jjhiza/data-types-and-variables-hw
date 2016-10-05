@@ -22,18 +22,18 @@ public class Main {
          * Hint 2 - try running the code (right click on this file and select "Run Main.main()" and if you get
          * zero errors then your data types and values all match up
          */
-        ___ varA = 3;
-        ___ varB = 9.75;
-        ___ varC = 4.0;
-        ___ varD = 2.;
-        ___ varE = 8573f;
-        ___ varF = "Macarons are delicious!";
-        ___ varG = '$';
-        ___ varH = "$";
-        ___ varI = true;
-        ___ varJ = (2 == 3);
-        ___ varK = Integer.valueOf("9235");
-        ___ varL = varF.equals("Macarons are delicious!");
+        int varA = 3;
+        double varB = 9.75;
+        double varC = 4.0;
+        double varD = 2.;
+        float varE = 8573f;
+        String varF = "Macarons are delicious!";
+        char varG = '$';
+        String varH = "$";
+        boolean varI = true;
+        boolean varJ = (2 == 3);
+        int varK = Integer.valueOf("9235");
+        boolean varL = varF.equals("Macarons are delicious!");
 
 
         /**
@@ -45,8 +45,8 @@ public class Main {
          * be done in separate lines of code.
          */
 
-        ___ price;
-        price = ___;
+        int price;
+        price = 10;
 
 
         /**
@@ -54,7 +54,7 @@ public class Main {
          * give it an initial value of "placeholder comment" all in one line of code.
          */
 
-        ___ comment = ___;
+        String comment = "placeholder comment";
 
 
         /**
@@ -70,5 +70,10 @@ public class Main {
         int divisor = 3;
         int divisionResult = numerator / divisor;
         System.out.println(divisionResult);
+
+        /** since we are dealing with integers, the resulting number will print as an integer as well (a whole number).
+         * I believe that the terminal will print an integer of 3, since 3 goes into 10 3 times. The remainder (1) will
+         * be dropped.
+         */
     }
 }
